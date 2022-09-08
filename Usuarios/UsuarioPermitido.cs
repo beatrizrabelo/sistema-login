@@ -9,13 +9,14 @@ namespace SistemaLogin.Usuarios
 {
     class UsuarioPermitido : Usuario, IPermissao
     {
+        private AutenticacaoHelper _autenticacaoHelper = new AutenticacaoHelper();
         public string Senha { get; set; }
         public UsuarioPermitido (string login) 
             : base(login){}
 
         public bool Verificar(string senha)
         {
-            return Senha == senha;
+            return _autenticacaoHelper.CompararSenhas(Senha, senha);
         }
     }
 }

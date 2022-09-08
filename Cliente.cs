@@ -1,4 +1,5 @@
 ﻿using SistemaLogin.Sistema;
+using SistemaLogin.Usuarios;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,7 +18,7 @@ namespace SistemaLogin
             Login = login;
         }
 
-        public bool Verificar(string senha)
+        public bool Verificar (string senha)
         {
             return Senha == senha;
         }
