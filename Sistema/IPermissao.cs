@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SistemaLogin.Usuarios
+namespace SistemaLogin.Sistema
 {
-    class Cliente : Usuario
+    interface IPermissao
     {
-        public Cliente(string login) 
-            : base(login){}
+        public bool Verificar (string senha);
+
     }
 }

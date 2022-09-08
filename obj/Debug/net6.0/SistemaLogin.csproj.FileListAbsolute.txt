@@ -1,0 +1,15 @@
+C:\C#\Projetos\SistemaLogin\obj\Debug\net6.0\SistemaLogin.csproj.AssemblyReference.cache
+C:\C#\Projetos\SistemaLogin\obj\Debug\net6.0\SistemaLogin.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\Projetos\SistemaLogin\obj\Debug\net6.0\SistemaLogin.AssemblyInfoInputs.cache
+C:\C#\Projetos\SistemaLogin\obj\Debug\net6.0\SistemaLogin.AssemblyInfo.cs
+C:\C#\Projetos\SistemaLogin\obj\Debug\net6.0\SistemaLogin.csproj.CoreCompileInputs.cache
+C:\C#\Projetos\SistemaLogin\bin\Debug\net6.0\SistemaLogin.exe
+C:\C#\Projetos\SistemaLogin\bin\Debug\net6.0\SistemaLogin.deps.json
+C:\C#\Projetos\SistemaLogin\bin\Debug\net6.0\SistemaLogin.runtimeconfig.json
+C:\C#\Projetos\SistemaLogin\bin\Debug\net6.0\SistemaLogin.dll
+C:\C#\Projetos\SistemaLogin\bin\Debug\net6.0\SistemaLogin.pdb
+C:\C#\Projetos\SistemaLogin\obj\Debug\net6.0\SistemaLogin.dll
+C:\C#\Projetos\SistemaLogin\obj\Debug\net6.0\refint\SistemaLogin.dll
+C:\C#\Projetos\SistemaLogin\obj\Debug\net6.0\SistemaLogin.pdb
+C:\C#\Projetos\SistemaLogin\obj\Debug\net6.0\SistemaLogin.genruntimeconfig.cache
+C:\C#\Projetos\SistemaLogin\obj\Debug\net6.0\ref\SistemaLogin.dll
