@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace SistemaLogin.Usuarios
 {
-    class Coordenador : Usuario
+    class Coordenador : UsuarioPermitido
     {
         public Coordenador(string login) 
             : base(login){}

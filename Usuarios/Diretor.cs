@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SistemaLogin.Usuarios
 {
-    class Diretor : Usuario
+    class Diretor : UsuarioPermitido
     {
         public Diretor(string login) 
             : base(login){}
