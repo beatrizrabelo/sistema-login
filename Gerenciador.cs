@@ -8,6 +8,5 @@ namespace SistemaLogin
 {
     class Gerenciador
     {      
-        
     }
 }
