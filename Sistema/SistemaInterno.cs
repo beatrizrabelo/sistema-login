@@ -9,6 +9,19 @@ namespace SistemaLogin.Sistema
 {
     class SistemaInterno
     {
+        public bool Logar (IPermissao usuario, string senha)
+        {
+            bool usuarioAutenticado = usuario.Verificar(senha);
 
+            if (usuarioAutenticado)
+            {
+                Console.WriteLine("Bem-Vindo ao Sistema!");
+                return true;
+            } else
+            {
+                Console.WriteLine("Senha Incorreta.");
+                return false;
+            }
+        }
     }
 }

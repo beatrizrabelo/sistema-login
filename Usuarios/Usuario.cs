@@ -8,7 +8,7 @@ namespace SistemaLogin.Usuarios
 {
     public abstract class Usuario
     {
-        public string Login { get; set; }
+        public string Login { get; }
         public static int TotalDeUsuarios { get; set; }
 
         public Usuario(string login)

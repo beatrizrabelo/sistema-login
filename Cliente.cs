@@ -9,7 +9,7 @@ namespace SistemaLogin
 {
     public class Cliente : IPermissao
     {
-        public string Login { get; set; }
+        public string Login { get; private set; }
         public string Senha { get; set; }
 
         public Cliente(string login)

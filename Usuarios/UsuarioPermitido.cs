@@ -10,9 +10,8 @@ namespace SistemaLogin.Usuarios
     class UsuarioPermitido : Usuario, IPermissao
     {
         public string Senha { get; set; }
-        public UsuarioPermitido(string login) : base(login)
-        {
-        }
+        public UsuarioPermitido (string login) 
+            : base(login){}
 
         public bool Verificar(string senha)
         {
