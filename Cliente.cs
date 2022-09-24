@@ -13,8 +13,12 @@ namespace SistemaLogin
         public string Login { get; private set; }
         public string Senha { get; set; }
 
-        public Cliente(string login)
+        public Cliente (string login)
         {
+            if (string.IsNullOrEmpty(login)){
+                Console.WriteLine("Preencha o campo.");
+            }
+
             Login = login;
         }
 
