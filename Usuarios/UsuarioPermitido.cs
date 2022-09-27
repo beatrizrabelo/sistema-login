@@ -11,9 +11,13 @@ namespace SistemaLogin.Usuarios
     {
         private AutenticacaoHelper _autenticacaoHelper = new AutenticacaoHelper();
         public string Senha { get; set; }
-        public UsuarioPermitido (string login) 
-            : base(login){}
+        public UsuarioPermitido(string login)
+            : base(login) { }
 
+        /// <summary>
+        /// Verifica a senha do sistema.
+        /// </summary>
+        /// <param name="senha"> Representa a propriedade <see cref="Senha"/> e deve ser igual a senha definida.</param>
         public bool Verificar(string senha)
         {
             return _autenticacaoHelper.CompararSenhas(Senha, senha);

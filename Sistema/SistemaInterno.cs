@@ -7,8 +7,16 @@ using System.Threading.Tasks;
 
 namespace SistemaLogin.Sistema
 {
+    /// <summary>
+    /// Define o o Sistema Interno para o acesso.
+    /// </summary>
     class SistemaInterno
     {
+        /// <summary>
+        /// Executa o acesso ao sistema.
+        /// </summary>
+        /// <param name="usuario"> Representa o argumento criado. </param>
+        /// <param name="senha"> Representa o argumento criado e precisa ser igual a definição. </param>
         public bool Logar (IPermissao usuario, string senha)
         {
             bool usuarioAutenticado = usuario.Verificar(senha);

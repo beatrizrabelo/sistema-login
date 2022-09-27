@@ -12,7 +12,12 @@ namespace SistemaLogin
     {
         public static void Main(string[] args)
         {
-            Cliente maria = new Cliente("");
+            Cliente maria = new Cliente("cl.maria");
+            maria.Senha = "cliente@123";
+
+            SistemaInterno sistema = new SistemaInterno();
+
+            sistema.Logar(maria, "cliente@123");
         }
     }
 }
